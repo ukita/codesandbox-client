@@ -845,7 +845,7 @@ class BasePreview extends React.Component<Props, State> {
                     ? getSSEUrl(sandbox, this.initialPath)
                     : frameUrl(sandbox, this.initialPath)
                 }
-                id="sandbox"
+                id="sandbox target"
                 title={getSandboxName(sandbox)}
                 style={{
                   ...style,

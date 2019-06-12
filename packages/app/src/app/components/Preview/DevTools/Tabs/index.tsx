@@ -49,6 +49,8 @@ const DevToolTabs = ({
         {panes.map((pane, i) => {
           const active = !hidden && i === currentPaneIndex;
 
+          console.log(panes);
+
           const TypedTab = (moveTab
             ? DraggableTab
             : (PaneTab as unknown)) as React.SFC<TabProps>;

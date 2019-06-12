@@ -9,6 +9,7 @@ import { TemplateType } from '@codesandbox/common/lib/templates';
 import console from './Console';
 import tests from './Tests';
 import problems from './Problems';
+import reactDevTools from './React-Devtools';
 import terminal from './Terminal';
 
 import { Container, Header, ContentContainer } from './elements';
@@ -78,6 +79,7 @@ const VIEWS: IViews = {
   [problems.id]: problems,
   [tests.id]: tests,
   [terminal.id]: terminal,
+  [reactDevTools.id]: reactDevTools,
 };
 
 type Props = {
